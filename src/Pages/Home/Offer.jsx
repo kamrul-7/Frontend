@@ -1,7 +1,7 @@
 import { BsCheckCircleFill } from "react-icons/Bs";
 const Offer = () => {
   return (
-    <div className="md:w-[95%] md:ml-12">
+    <div className="md:w-[95%] md:ml-12 md:mb-12">
       <div className="text-center mb-12">
         <h1 className="font-bold text-3xl text-blue-900 mt-8 mb-8">
           Why Chose Dhaka Resort?
@@ -22,7 +22,7 @@ const Offer = () => {
                 />
               </figure>
             </div>
-            <div className="card card-compact h-72  bg-base-100  mt-8">
+            <div className="card card-compact w-80 md:w-full md:h-72  bg-base-100  mt-8">
               <figure className="rounded-t-xl">
                 <img
                   src="https://images.pexels.com/photos/2964163/pexels-photo-2964163.jpeg?auto=compress&cs=tinysrgb&w=600"
@@ -50,7 +50,7 @@ const Offer = () => {
             </div>
           </div>
         </div>
-        <div className="ml-20 mt-12">
+        <div className="md:ml-20 mt-12 ml-2">
           <p>
             We offer organic food production In our own yard. We also Feel
             Honored to host your Events like wedding, Anniversary, Birthday

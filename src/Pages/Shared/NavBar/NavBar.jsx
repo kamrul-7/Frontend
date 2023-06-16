@@ -9,18 +9,20 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <div className="flex justify-around bg-[#686de0] py-1 text-white shadow-lg">
-      <div className="flex">
-        <div className="flex mr-8">
-          <div className="mt-1">
-            <IoMdCall />
-          </div>
-          <p className="ml-2">+801762554444</p>
-        </div>
+      <div className="hidden md:block">
         <div className="flex">
-          <div className="mt-1">
-            <MdMessage />
+          <div className="flex mr-8">
+            <div className="mt-1">
+              <IoMdCall />
+            </div>
+            <p className="ml-2">+801762554444</p>
           </div>
-          <p className="ml-2">dhakadreamlandpark@gmail.com</p>
+          <div className="flex">
+            <div className="mt-1">
+              <MdMessage />
+            </div>
+            <p className="ml-2">dhakadreamlandpark@gmail.com</p>
+          </div>
         </div>
       </div>
       <div className="flex">

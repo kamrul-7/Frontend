@@ -1,0 +1,7 @@
+.img {
+
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.637), rgba(225, 17, 17, 0)), url("https://img.freepik.com/free-photo/abstract-blur-swimming-pool_74190-2083.jpg?size=626&ext=jpg&uid=R106205364&ga=GA1.2.1794174872.1675619682&semt=ais");
+
+    background-color: linear-gradient(to bottom, #fffbd5, #b20a2c);
+    background-repeat: no-repeat;
+}

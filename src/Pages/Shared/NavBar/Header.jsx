@@ -113,8 +113,8 @@ const Header = () => {
               />
             </svg>
           </label>
-          <ul tabIndex={0} className=" menu-sm dropdown-content mt-3 w-56">
-            <div className=" fixed w-32 py-4  bg-[#686de0] rounded-md text-slate-200 subTitle text-2xl">
+          <ul tabIndex={0} className=" menu-sm dropdown-content mt-1 w-56">
+            <div className="pl-8 w-32 bg-[#686de0] rounded-md text-slate-200 text-2xl">
               {navOptions}
             </div>
           </ul>
@@ -122,12 +122,12 @@ const Header = () => {
 
         <img
           width={100}
-          src="https://w7.pngwing.com/pngs/607/848/png-transparent-logo-novotel-suite-hotel-resort-hotel-blue-text-logo-thumbnail.png"
-          alt=""
+          src="https://i.ibb.co/T0fpj2h/1589136458508.jpg"
+          alt="1589136458508"
         />
       </div>
       <div className="navbar-center hidden lg:flex">
-        <NavLink className="menu-horizontal px-2 subTitle text-sm space-x-6">
+        <NavLink className="menu-horizontal px-2 text-sm space-x-6">
           {navOptions}
         </NavLink>
       </div>

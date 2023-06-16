@@ -1,42 +1,71 @@
+import { Link } from "react-router-dom";
+import { IoMdCall } from "react-icons/io";
+import { MdMessage } from "react-icons/Md";
 const Footer = () => {
   return (
     <div>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
-        corporis qui quia debitis? Quis dolore ad minus enim rem eaque odit
-        sequi consequuntur! Nesciunt aut quas, similique sapiente repellendus,
-        ab aliquid nisi doloremque reiciendis aspernatur itaque vitae ipsa
-        necessitatibus earum quo, quis amet. Non porro atque nemo mollitia
-        laborum, veniam sint quo ipsam quia perspiciatis. Earum explicabo in
-        culpa fuga dicta quos expedita facilis voluptate veritatis sunt rem
-        illum, quod id laboriosam corrupti quasi provident exercitationem sed
-        rerum, cupiditate ad odit vero! Dolorum consequuntur ratione maiores
-        quas? Deserunt nobis cumque ad autem impedit doloremque! Earum maxime
-        aliquid veritatis veniam molestias placeat labore a explicabo. Maxime
-        qui quod, corrupti error placeat quisquam aliquam fuga similique
-        incidunt iste architecto, accusantium minima a doloremque eligendi rerum
-        commodi nulla quos cupiditate autem laborum sed distinctio excepturi.
-        Dolor quos vero explicabo accusamus laudantium exercitationem? Numquam
-        ut delectus incidunt maiores obcaecati quasi minus, laboriosam corrupti
-        voluptates saepe sunt ducimus asperiores aliquid nesciunt cum id eum
-        excepturi odit eius iure dignissimos impedit aliquam atque? Ab alias
-        recusandae fugit praesentium voluptatibus, exercitationem libero qui
-        error neque sed porro mollitia pariatur quibusdam assumenda nostrum
-        facilis atque tenetur quod numquam excepturi dolor adipisci quas
-        repellendus? Eaque cumque reiciendis iste vitae eveniet aliquid nisi,
-        totam odit deserunt reprehenderit magnam eum perspiciatis sapiente minus
-        voluptate aliquam mollitia nesciunt. Saepe impedit nisi dolore error
-        inventore iure quidem dignissimos repellat! Doloribus molestias
-        excepturi vitae ducimus nisi, dolores, nam eaque libero vel
-        reprehenderit quae repudiandae voluptas tempora voluptates debitis
-        laborum architecto facere quas illo culpa eveniet fugiat recusandae!
-        Recusandae provident quasi, nulla beatae, dolorum adipisci vero dolores
-        corrupti quod inventore ex optio amet minima quia voluptas hic magnam
-        repellat quibusdam. Ipsum aut, beatae quo impedit quae, repudiandae
-        eligendi voluptate quidem sequi omnis optio dolorum earum voluptatum
-        dolorem nulla possimus natus voluptates facilis. Hic, voluptatibus
-        mollitia?
-      </p>
+      <footer className="footer p-10 bg-blue-900 text-neutral-content grid grid-cols-3">
+        <div className="mx-auto">
+          <img
+            width={100}
+            src="https://i.ibb.co/T0fpj2h/1589136458508.jpg"
+            alt="1589136458508"
+          />
+          <span className="footer-title">Services</span>
+          <Link className="link link-hover">
+            Location: bandhabari,
+            <br /> kaliyakoir,
+            <br /> Gazipur
+          </Link>
+          <div className="">
+            <div className="flex mr-8 mb-4">
+              <div className="mt-1">
+                <IoMdCall />
+              </div>
+              <p className="ml-2">+801762554444</p>
+            </div>
+            <div className="flex">
+              <div className="mt-1">
+                <MdMessage />
+              </div>
+              <p className="ml-2">dhakadreamlandpark@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div className="mx-auto">
+          <span className="footer-title">Company</span>
+          <Link className="link link-hover">About us</Link>
+          <Link className="link link-hover">Contact</Link>
+          <Link className="link link-hover">Jobs</Link>
+          <Link className="link link-hover">Press kit</Link>
+        </div>
+        <div className="mx-auto">
+          <span className="footer-title">Legal</span>
+          <Link className="link link-hover">Terms of use</Link>
+          <Link className="link link-hover">Privacy policy</Link>
+          <Link className="link link-hover">Cookie policy</Link>
+        </div>
+        <div>
+          <h2 className="font-bold text-lg">DON'T MISS A THING</h2>
+          <p>Get update a special deals and exclusive offer.</p>
+          <div>
+            <div className="join">
+              <input
+                className="input input-bordered join-item"
+                placeholder="Email"
+              />
+              <button className="btn join-item rounded-r-full">
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <footer className="footer footer-center p-4 bg-blue-900 text-neutral-content">
+        <div>
+          <p>Copyright © 2023 - All right reserved by Dhaka Resort Ltd</p>
+        </div>
+      </footer>
     </div>
   );
 };

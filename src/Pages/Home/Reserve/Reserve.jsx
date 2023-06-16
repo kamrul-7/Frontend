@@ -1,11 +1,11 @@
 const Reserve = () => {
   return (
     <div className="bg-[#341f97] pb-8">
-      <div className="uppercase text-center font-extrabold text-4xl pt-8 text-white">
+      <div className="uppercase text-center md:font-extrabold md:text-4xl text-2xl font-semibold pt-8 text-white">
         <h1>Reserve your stay</h1>
       </div>
-      <div className="flex md:ml-[10%] mt-16 mb-16">
-        <div className="form-control md:w-56 w-24">
+      <div className="flex md:ml-[10%] mt-20 mb-12 ml-6">
+        <div className="form-control md:w-56 w-20">
           <select className="select select-bordered">
             <option disabled selected>
               Packages
@@ -37,7 +37,7 @@ const Reserve = () => {
             <option>Star Trek</option>
           </select>
         </div>
-        <div className="form-control md:w-56 w-24  ml-5">
+        <div className="form-control md:w-56 w-24  ml-5 hidden md:block">
           <select className="select select-bordered">
             <option disabled selected>
               Book Now
